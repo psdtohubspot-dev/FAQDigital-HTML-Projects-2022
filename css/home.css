@@ -594,6 +594,13 @@ section.why-sec .list-item .heading {
     }
 }
 
+@media (min-width:1024px) {
+    .machine-learning lottie-player {
+        margin-left: -36px;
+        margin-top: -10px;
+    }
+}
+
 /*====================================================================
 ================= MOBILE Responsive Styling =============================
 ====================================================================*/
@@ -819,5 +826,8 @@ section.why-sec .list-item .heading {
     }
     section.popup-banner>.row {
         padding: 23px 10px;
+    }
+    lottie-player {
+        width:100% !important;
     }
 }
